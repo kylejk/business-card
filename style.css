@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+
+body {
+    background-color: grey;
+}
+
+
+.front-side,
+.back-side {
+  width: 80%;
+  height: 40%;
+  position: relative;
+  margin: 25px auto;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #17161694;
+  background-color:whitesmoke;
+}
+
+.front-side{
+  background-image: url('t.png');
+}
+
+.name{
+  display: grid;
+  position: relative;
+  margin-left:20px;
+  padding: 20px
+
+}
+
+.secondary{
+  display: grid;
+  position: relative;
+  margin-left:40px;
+
+}
