@@ -6,14 +6,15 @@
 
 
 body {
-    background-color: grey;
+    background-color: rgb(253, 115, 2);
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 .front-side,
 .back-side {
-  width: 80%;
-  height: 40%;
+  width: 1050px;
+  height: 600px;
   position: relative;
   margin: 25px auto;
   overflow: hidden;
@@ -25,17 +26,67 @@ body {
   background-image: url('t.png');
 }
 
+.back-side{
+  background-image: url('t2.png');
+}
+
 .name{
   display: grid;
   position: relative;
-  margin-left:20px;
-  padding: 20px
-
+  left: 80px;
+  top: 80px;
 }
 
 .secondary{
   display: grid;
   position: relative;
-  margin-left:40px;
+  left: 80px;
+  top: 85px;
+}
 
+.socials{
+  position: relative;
+  margin-left: 600px;
+  margin-top: 60px;
+  padding: 5px;
+}
+
+img{
+  max-width: 8%;
+  height: auto;
+  position: relative;
+  left: 80px;
+  top: 212px;
+}
+
+
+h1{
+  
+  color: white;
+  font-size: 2.7em;
+}
+
+h3{
+  
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+a:active {
+  text-decoration: underline;
+  color: white;
 }
